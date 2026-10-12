@@ -1,0 +1,30 @@
+{
+	"doctors": [
+		{
+			"id": "gato",
+			"name": "gato"
+		}
+	],
+	"models": [
+		{
+			"client": "caso02",
+			"doctor_id": "gato",
+			"expires_at_unix": 1792641734,
+			"file": "caso02-superior.stl",
+			"id": "caso02-superior",
+			"name": "Arcada superior",
+			"version": "1792641734",
+			"z_up": false
+		},
+		{
+			"client": "caso02",
+			"doctor_id": "gato",
+			"expires_at_unix": 1792641734,
+			"file": "caso02-inferior.stl",
+			"id": "caso02-inferior",
+			"name": "Arcada inferior",
+			"version": "1792641734",
+			"z_up": false
+		}
+	]
+}
