@@ -3,7 +3,85 @@
 		{
 			"id": "gato",
 			"name": "gato"
+		},
+		{
+			"id": "dr-richard",
+			"name": "dr richard"
 		}
 	],
-	"models": []
+	"models": [
+		{
+			"case_id": "dr-garciaa",
+			"chunks": [
+				{
+					"file": "dr-garciaa-superior-1.part001",
+					"repository": "Alojamiento_2",
+					"size_bytes": 20971520
+				},
+				{
+					"file": "dr-garciaa-superior-1.part002",
+					"repository": "Alojamiento_2",
+					"size_bytes": 20971520
+				},
+				{
+					"file": "dr-garciaa-superior-1.part003",
+					"repository": "Alojamiento_2",
+					"size_bytes": 18201444
+				}
+			],
+			"client": "dr garciaa",
+			"doctor_id": "dr-richard",
+			"expires_at_unix": 1795229903,
+			"file": "",
+			"id": "dr-garciaa-superior-1",
+			"layer": "upper_1",
+			"name": "Arcada superior 1",
+			"size_bytes": 60144484,
+			"version": "1795229903",
+			"z_up": false
+		},
+		{
+			"case_id": "dr-garciaa",
+			"chunks": [
+				{
+					"file": "dr-garciaa-inferior-1.part001",
+					"repository": "Alojamiento_2",
+					"size_bytes": 20971520
+				},
+				{
+					"file": "dr-garciaa-inferior-1.part002",
+					"repository": "Alojamiento_2",
+					"size_bytes": 20971520
+				},
+				{
+					"file": "dr-garciaa-inferior-1.part003",
+					"repository": "Alojamiento_1",
+					"size_bytes": 6955594
+				}
+			],
+			"client": "dr garciaa",
+			"doctor_id": "dr-richard",
+			"expires_at_unix": 1795229903,
+			"file": "",
+			"id": "dr-garciaa-inferior-1",
+			"layer": "lower_1",
+			"name": "Arcada inferior 1",
+			"size_bytes": 48898634,
+			"version": "1795229903",
+			"z_up": false
+		},
+		{
+			"case_id": "dr-garciaa",
+			"client": "dr garciaa",
+			"doctor_id": "dr-richard",
+			"expires_at_unix": 1795229903,
+			"file": "dr-garciaa-inferior-2.stl",
+			"id": "dr-garciaa-inferior-2",
+			"layer": "lower_2",
+			"name": "Arcada inferior 2",
+			"size_bytes": 2603284,
+			"version": "1795229903",
+			"z_up": false
+		}
+	]
 }
